@@ -8,7 +8,7 @@ import java.io.Serializable;
 public class Criminal implements Serializable {
 
     @Id
-    @Column
+    @Column (name = "id")
     private Integer id;
 
     @Column(name = "nombre")
