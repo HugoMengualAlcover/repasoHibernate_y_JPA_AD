@@ -17,7 +17,7 @@ public class LogicaNegocio {
     }
 
     public void ejecutarAccionesPrototipo(){
-
+        //Hacer el menu y ejecutar las que toque
     }
 
     private int menu(){
@@ -49,7 +49,6 @@ public class LogicaNegocio {
         policia.setAntiguedad(antiguedad);
         policia.setApellidos(apellidos);
         policia.setNombre(nombre);
-
 
         session.save(policia);
         session.getTransaction().commit();
