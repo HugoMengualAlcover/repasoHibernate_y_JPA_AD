@@ -17,7 +17,7 @@ public class LogicaNegocio {
     }
 
     public void ejecutarAccionesPrototipo(){
-        //Hacer el menu y ejecutar las que toque
+        //Hacer el menu y ejecutar las funciones que toque
     }
 
     private int menu(){
